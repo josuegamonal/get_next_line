@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: jgamonal <jgamonal@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/05 12:41:34 by jgamonal          #+#    #+#             */
-/*   Updated: 2023/04/10 09:09:34 by jgamonal         ###   ########.fr       */
+/*   Created: 2023/04/16 16:51:46 by jgamonal          #+#    #+#             */
+/*   Updated: 2023/04/17 16:56:40 by jgamonal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,16 +15,16 @@
 
 # include<unistd.h>
 # include<fcntl.h>
-# include<stdio.h>//BORRAR
+# include<stdio.h>
 # include<stdlib.h>
 
 # ifndef BUFFER_SIZE
 #  define BUFFER_SIZE 5
 # endif
 
-char	*get_next_line(int fd); //BORRAR
-char	*ft_strdup(const char *s1);
+char	*get_next_line(int fd);
 size_t	ft_strlen(const char *str);
 char	*ft_strjoin(char *s1, char *s2);
-size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
+int		ft_strchr(const char *s, int c);
+
 #endif
