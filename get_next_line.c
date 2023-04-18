@@ -6,7 +6,7 @@
 /*   By: jgamonal <jgamonal@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/16 16:50:44 by jgamonal          #+#    #+#             */
-/*   Updated: 2023/04/17 16:54:38 by jgamonal         ###   ########.fr       */
+/*   Updated: 2023/04/18 10:14:16 by jgamonal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -142,7 +142,7 @@ char	*get_next_line(int fd)
 	static char	*backup;
 	char		*line;
 
-	if (fd < 0 || fd > FOPEN_MAX || BUFFER_SIZE <= 0)
+	if (fd < 0 || fd > 1023 || BUFFER_SIZE <= 0)
 		return (NULL);
 	backup = read_and_backup(fd, backup);
 	if (backup == NULL)

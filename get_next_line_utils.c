@@ -6,7 +6,7 @@
 /*   By: jgamonal <jgamonal@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/16 18:07:42 by jgamonal          #+#    #+#             */
-/*   Updated: 2023/04/17 16:56:33 by jgamonal         ###   ########.fr       */
+/*   Updated: 2023/04/18 10:32:38 by jgamonal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,7 +59,7 @@ char	*ft_strjoin(char *s1, char *s2)
 	s3 = malloc(sizeof(char) * ((ft_strlen(s1)) + (ft_strlen(s2)) + 1));
 	if (!(s3))
 		return (NULL);
-		i = -1;
+	i = -1;
 	j = 0;
 	if (s1)
 		while (s1[++i] != '\0')

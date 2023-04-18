@@ -6,7 +6,7 @@
 /*   By: jgamonal <jgamonal@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/16 16:51:46 by jgamonal          #+#    #+#             */
-/*   Updated: 2023/04/17 16:56:40 by jgamonal         ###   ########.fr       */
+/*   Updated: 2023/04/18 10:14:14 by jgamonal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,6 @@
 
 # include<unistd.h>
 # include<fcntl.h>
-# include<stdio.h>
 # include<stdlib.h>
 
 # ifndef BUFFER_SIZE
